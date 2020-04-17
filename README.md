@@ -9,7 +9,7 @@
 ## Getting started
 
 ```bash
-npm install --save bridge-notification-svelte
+npm install --save bridge-svelte-notification
 ```
 
 ## Basic usage
@@ -18,7 +18,7 @@ npm install --save bridge-notification-svelte
 // App.svelte
 
 <script>
-  import BridgeNotify from "bridge-notification-svelte";
+  import BridgeNotify from "bridge-svelte-notification";
   <main>
     <BridgeNotify />
     ...
@@ -30,7 +30,7 @@ npm install --save bridge-notification-svelte
 // ChildrenComponent.svelte
 
 <script>
-  import { notify } from "bridge-notification-svelte";
+  import { notify } from "bridge-svelte-notification";
 
   function show(position) {
     notify({
@@ -55,7 +55,7 @@ npm install --save bridge-notification-svelte
 ```javascript
 // ChildrenComponent.svelte
 
-import { notify } from "bridge-notification-svelte";
+import { notify } from "bridge-svelte-notification";
 
   function show(position) {
     notify({
