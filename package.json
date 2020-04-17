@@ -1,0 +1,13 @@
+{
+  "name": "bridge-notification-svelte",
+  "version": "1.0.0",
+  "description": "A notification component for sveltejs",
+  "main": "index.js",
+  "keywords": [
+    "svelte",
+    "notification",
+    "alert"
+  ],
+  "author": "sarthaksavvy",
+  "license": "ISC"
+}
