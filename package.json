@@ -8,6 +8,13 @@
     "notification",
     "alert"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitfumes/bridge-notification-svelte"
+  },
+  "bugs": {
+    "url": "https://github.com/bitfumes/JWTVerify/bridge-notification-svelte"
+  },
   "author": "sarthaksavvy",
   "license": "ISC"
 }
