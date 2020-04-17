@@ -37,7 +37,7 @@ npm install --save bridge-notification-svelte
       message: "Bridge Notification is Awesome 😍",
       type: 'success',
       duration: 3000,
-      position: 'center,
+      position: 'center',
       animate: {
             y: 100,
             x: 0,
@@ -62,7 +62,7 @@ import { notify } from "bridge-notification-svelte";
       message: "Bridge Notification is Awesome 😍",
       type: 'success',
       duration: 3000,
-      position: 'center,
+      position: 'center',
       animate: {
             y: 100,
             x: 0,
